@@ -15,9 +15,9 @@ The objective of this data analysis project is to examine how personal factors a
 <h6>
 CODE:
  <h6>
-
+<h7>
 IMPORT LIBRARIES
-##
+<h7>
 import numpy as np
 
 import pandas as pd
