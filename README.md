@@ -1,4 +1,4 @@
- 
+"C:\Users\ap446\OneDrive\Documents\Programs\Pyproj\1.jpg" 
 <h1>Student-Result-Analysis<h1>
 <h2>PYTHON EXPLORATORY DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
 <h3>Title: Analyzing the Impact of Personal and Professional Factors on Student Academic Performance<h3>
