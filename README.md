@@ -130,7 +130,7 @@ plt.figure(figsize=(8, 6))  # Adjusted figsize for better visualization
 
 plt.title("Relationship between Parents Marital Status and Student Scores")
 
-sns.heatmap(gb1, annot=True, fmt=".2f", annot_kws={"rotation": 0})  # Setting fmt=".2f" for 2 decimal places and annot_kws={"rotation": 0} for horizontal annotations
+sns.heatmap(gb1, annot=True, fmt=".2f", annot_kws={"rotation": 0})  # Setting fmt=".2f" for 2 decimal places and annot_kws={"rotation": 0} #for horizontal annotations
 
 plt.show()
 ##
