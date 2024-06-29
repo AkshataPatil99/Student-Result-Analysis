@@ -119,7 +119,7 @@ plt.show()
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/6df1eeeb-183c-41c1-932e-97093f40a44f)
 ##
 Speculation:
-Analysis from the charts are, that students whose parents have a Master's Degree scored significantly higher marks in results. Whereas student whose have only a high school degree have scored the lowest marks. 
+Analysis from the charts are, that students whose parents have a Master's Degree scored significantly higher marks in results. Whereas student whose parents have only a high school degree have scored the lowest marks. 
 To conlude, higher the grade of education of parents, greater is its impact on students performance.
 ##
 RELATIONSHIP BETWEEN PARENTS MARITAL STATUS AND STUDENT SCORES
