@@ -1,8 +1,6 @@
  
 <h1>Student-Result-Analysis<h1>
-
-<h2>Problem Statement for Data Analysis Project<h2>
-
+<h2>PYTHON EXPLORATORY DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
 <h3>Title: Analyzing the Impact of Personal and Professional Factors on Student Academic Performance<h3>
 
 <h4>Introduction:
@@ -18,8 +16,6 @@ CODE:
 ##
 IMPORT LIBRARIES
 ##
-import numpy as np
-
 import pandas as pd
 
 import matplotlib.pyplot as plt
@@ -32,7 +28,7 @@ df=pd.read_csv(r""C:\Users\ap446\OneDrive\Desktop\datasets\Student_exam_results.
 
 pd.set_option('display.max_columns',None)
 ##
-CONDUCT EXPLORATORY DATA ANALYSIS
+FIND DIMENSIONS OF DATAFRAME
 ##
 print(df.head(10))
 ##
