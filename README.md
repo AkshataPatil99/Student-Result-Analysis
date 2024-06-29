@@ -14,8 +14,7 @@ The objective of this data analysis project is to examine how personal factors (
 ##
 Research Questions:
 ##
-Personal Factors:
-##
+1.Personal Factors:
 ##
 How does parents' education level correlate with students' scores in different subjects?
 ##
@@ -25,8 +24,7 @@ Does the marital status of parents influence students' scores, and if so, how?
 ##
 Is there a relationship between the number of siblings and students' academic achievement?
 ##
-Professional Factors:
-##
+2.Professional Factors:
 ##
 How does participation in test preparation programs affect students' scores?
 ##
