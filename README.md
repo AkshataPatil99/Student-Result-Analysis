@@ -5,14 +5,12 @@
 
 <h3>Title: Analyzing the Impact of Personal and Professional Factors on Student Academic Performance<h3>
 
-<h4>Introduction:<h4>
+<h4>Introduction:
 
-In the pursuit of understanding the determinants of academic success, it is essential to analyze both personal and professional factors that influence students' scores across various subjects. By identifying these key factors, educators and policymakers can devise targeted strategies to improve educational outcomes.
-<h5>
-Objective:
-<h5>
-##
-The objective of this data analysis project is to examine how personal factors and professional factors affect students' academic performance. The study aims to uncover significant relationships and trends that can provide insights into the multifaceted nature of educational achievement.
+In the pursuit of understanding the determinants of academic success, it is essential to analyze both personal and professional factors that influence students' scores across various subjects. By identifying these key factors, educators and policymakers can devise targeted strategies to improve educational outcomes.<h4>
+
+<h5>Objective:
+The objective of this data analysis project is to examine how personal factors and professional factors affect students' academic performance. The study aims to uncover significant relationships and trends that can provide insights into the multifaceted nature of educational achievement.<h5>
 ##
 CODE:
 ##
