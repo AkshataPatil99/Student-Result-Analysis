@@ -52,9 +52,13 @@ df["Gender"] = df["Gender"].astype('category')
 GENDER DISTIRBUTION
 ##
 plt.figure(figsize = (5,5))
+
 plt.title("Gender Distribution")
+
 custom_palette = ['#000080', '#00FFFF']  # Example colors: Navy for Male and Cyan for Female
+
 ax = sns.countplot(data = df, x ="Gender", palette=custom_palette)
+
 for p in ax.patches:
     ax.annotate(f'{p.get_height()}', (p.get_x() + p.get_width() / 2., p.get_height()), ha='center', va='center', xytext=(0, 5), textcoords='offset points')
 plt.show()
