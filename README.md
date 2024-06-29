@@ -60,7 +60,9 @@ custom_palette = ['#000080', '#00FFFF']  # Example colors: Navy for Male and Cya
 ax = sns.countplot(data = df, x ="Gender", palette=custom_palette)
 
 for p in ax.patches:
-    ax.annotate(f'{p.get_height()}', (p.get_x() + p.get_width() / 2., p.get_height()), ha='center', va='center', xytext=(0, 5), textcoords='offset points')
+    
+   ax.annotate(f'{p.get_height()}', (p.get_x() + p.get_width() / 2., p.get_height()), ha='center', va='center', xytext=(0, 5), textcoords='offset points')
+
 plt.show()
 ##
 OUTPUT:
@@ -79,22 +81,34 @@ groupD = df.loc[df["EthnicGroup"] == "group D"].count()
 groupE = df.loc[df["EthnicGroup"] == "group E"].count()
 
 lab1 = ["groupA","groupB","groupC","groupD","groupE"]
+
 explode1 = (0, 0, 0.08, 0, 0)
+
 custom_palette1 = ["#000080","#00FFFF","#FF1493","#708090","#800080"]
+
 mlist = [groupA["EthnicGroup"],groupB["EthnicGroup"],groupC["EthnicGroup"],groupD["EthnicGroup"],groupE["EthnicGroup"]]
+
 plt.title("Distribution of Ethnic Group")
+
 plt.pie(mlist,labels=lab1, colors=custom_palette1 ,explode = explode1,autopct = "%1.2f%%", shadow = True, startangle=140)
+
 plt.legend(lab1, loc="center left", bbox_to_anchor = (1,0.8))
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/5d6ee949-9a4a-47c6-b6bb-8898f5655708)
 ##
 RELATIONSHIP BETWEEN PARENT'S EDUCATION AND STUDENT SCORES
 ##
+
 gb = df.groupby("ParentEduc").agg({"MathScore":'mean', "ReadingScore":'mean', "WritingScore":'mean'})
+
 plt.figure(figsize = (4,4))
+
 plt.title("Relationship between Parent's Education and Student Scores")
+
 sns.heatmap(gb, annot=True)
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/6df1eeeb-183c-41c1-932e-97093f40a44f)
@@ -109,8 +123,11 @@ RELATIONSHIP BETWEEN PARENTS MARITAL STATUS AND STUDENT SCORES
 gb1 = df.groupby("ParentMaritalStatus").agg({"MathScore": 'mean', "ReadingScore": 'mean', "WritingScore": 'mean'})
 
 plt.figure(figsize=(8, 6))  # Adjusted figsize for better visualization
+
 plt.title("Relationship between Parents Marital Status and Student Scores")
+
 sns.heatmap(gb1, annot=True, fmt=".2f", annot_kws={"rotation": 0})  # Setting fmt=".2f" for 2 decimal places and annot_kws={"rotation": 0} for horizontal annotations
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/f428d29a-bbc7-418c-91df-befff3e13cce)
@@ -121,10 +138,15 @@ Based on the heatmap analysis, it is evident that parental marital status has no
 DETECT OUTLAIRS OR EXTREME VALUES
 ##
 sns.boxplot(data = df,x = "MathScore")
+
 plt.show()
+
 sns.boxplot(data = df,x = "ReadingScore")
+
 plt.show()
+
 sns.boxplot(data = df,x = "WritingScore")
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/c69df466-fc70-46be-8e45-1715b0a4f64e)
@@ -139,9 +161,13 @@ The box plot analysis reveals a notable observation regarding the distribution o
 IMPACT OF TEST PREPARATION ON THE RESULTS
 ##
 test = df.groupby("TestPrep").agg({"MathScore":'mean', "ReadingScore":'mean', "WritingScore":'mean'})
+
 plt.figure(figsize = (4,4))
+
 plt.title("IMPACT OF TEST PREPARATION ON THE RESULTS")
+
 sns.heatmap(test, annot=True)
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/a1ba3178-b6e8-4938-a2ed-001d74eb4f36)
@@ -151,10 +177,15 @@ From the above chart, we can conclude that there is a good impact of test prepar
 ##
 IMPACT OF WEEKLY STUDY HOURS ON STUDENT RESULTS
 ##
+
 gb2 = df.groupby("WklyStudyHours").agg({"MathScore":'mean', "ReadingScore":'mean', "WritingScore":'mean'})
+
 plt.figure(figsize = (6,6))
+
 plt.title("Relationship between Weekly study hours and Student Scores")
+
 sns.heatmap(gb2, annot=True, annot_kws={"rotation": 0})
+
 plt.show()
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/6fa39b16-0144-47ef-bd25-f009f06e3fee)
