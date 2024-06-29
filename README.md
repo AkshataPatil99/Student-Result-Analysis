@@ -50,7 +50,7 @@ CHANGING DATA TYPE OF COLUMN
 ##
 df["Gender"] = df["Gender"].astype('category')
 ##
-GENDER DISTIRBUTION
+GENDER DISTRIBUTION
 ##
 plt.figure(figsize = (5,5))
 
@@ -71,9 +71,9 @@ OUTPUT:
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/a7df4387-8f4b-4c71-a2fb-a7b5b07393a0)
 ##
 Speculation:
-From the chart, it can be observed that the dataset contains a higher number of female students compared to males students.
+From the chart, it can be observed that the dataset contains a higher number of female students compared to male students.
 ##
-DISTRIBUTION OD ETHNIC GROUPS
+DISTRIBUTION OF ETHNIC GROUPS
 ##
 groupA = df.loc[df["EthnicGroup"] == "group A"].count()
 
@@ -140,7 +140,7 @@ plt.show()
 Speculation:
 Based on the heatmap analysis, it is evident that parental marital status has no significant impact on student academic performance.
 ##
-DETECT OUTLAIRS OR EXTREME VALUES
+DETECT OUTLIERS OR EXTREME VALUES
 ##
 sns.boxplot(data = df,x = "MathScore")
 
@@ -181,7 +181,7 @@ plt.show()
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/a1ba3178-b6e8-4938-a2ed-001d74eb4f36)
 ##
 Speculations:
-From the above chart, we can conclude that there is a good impact of test preparation on the students results compared to students with no exam preparation.
+From the above chart, we can conclude that students with test preparation scored higher than students with no preparation.
 ##
 IMPACT OF WEEKLY STUDY HOURS ON STUDENT RESULTS
 ##
