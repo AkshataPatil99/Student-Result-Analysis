@@ -41,7 +41,7 @@ df.info()
 
 df.isnull().sum()
 ##
-DROP UNNAMED COLUMN THAT ARE NOT USEFUL
+DROP COLUMN 
 ##
 df = df.drop("Unnamed: 0",axis = 1)
 ##
@@ -72,12 +72,16 @@ OUTPUT:
 Speculation:
 From the chart, it can be observed that the dataset contains a higher number of female students compared to males students.
 ##
-Distribution of Ethnic groups
+DISTRIBUTION OD ETHNIC GROUPS
 ##
 groupA = df.loc[df["EthnicGroup"] == "group A"].count()
+
 groupB = df.loc[df["EthnicGroup"] == "group B"].count()
+
 groupC = df.loc[df["EthnicGroup"] == "group C"].count()
+
 groupD = df.loc[df["EthnicGroup"] == "group D"].count()
+
 groupE = df.loc[df["EthnicGroup"] == "group E"].count()
 
 lab1 = ["groupA","groupB","groupC","groupD","groupE"]
