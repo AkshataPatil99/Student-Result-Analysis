@@ -23,7 +23,7 @@ What is the impact of students' ethnic group on their academic performance?
 Does the marital status of parents influence students' scores, and if so, how?
 
 Is there a relationship between the number of siblings and students' academic achievement?
-
+##
 2.Professional Factors:
 ##
 How does participation in test preparation programs affect students' scores?
@@ -41,7 +41,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import seaborn as sns
-
+##
 READ CSV FILES
 ##
 df=pd.read_csv(r"C:\Users\ap446\OneDrive\Desktop\datasets\Expanded_data_with_more_features.csv")
@@ -57,20 +57,21 @@ df.describe()
 df.info()
 
 df.isnull().sum()
-
+##
 DROP UNNAMED COLUMN THAT ARE NOT USEFUL
 ##
 df = df.drop("Unnamed: 0",axis = 1)
-
+##
 CHANGING DATA TYPE OF COLUMN
 ##
 df["Gender"] = df["Gender"].astype('category')
-
+##
 GENDER DISTIRBUTION
 ##
 plt.figure(figsize = (5,5))
 plt.title("Gender Distribution")
-ax = sns.countplot(data = df, x ="Gender", palette='Set2')
+custom_palette = ['#000080', '#00FFFF']  # Example colors: Navy for Male and Cyan for Female
+ax = sns.countplot(data = df, x ="Gender", palette=custom_palette)
 for p in ax.patches:
     ax.annotate(f'{p.get_height()}', (p.get_x() + p.get_width() / 2., p.get_height()), ha='center', va='center', xytext=(0, 5), textcoords='offset points')
 plt.show()
@@ -79,6 +80,25 @@ OUTPUT:
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/a7df4387-8f4b-4c71-a2fb-a7b5b07393a0)
 ##
+Speculation:
+From the chart, it can be observed that the dataset contains a higher number of female students compared to males students.
+##
+RELATIONSHIP BETWEEN PARENT'S EDUCATION AND STUDENT SCORES
+##
+gb = df.groupby("ParentEduc").agg({"MathScore":'mean', "ReadingScore":'mean', "WritingScore":'mean'})
+plt.figure(figsize = (4,4))
+plt.title("Relationship between Parent's Education and Student Scores")
+sns.heatmap(gb, annot=True)
+plt.show()
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/6df1eeeb-183c-41c1-932e-97093f40a44f)
+##
+Speculation:
+Based on the chart, we have concluded that parents' marital status has a negligible impact on student results.
+##
+DETECT OUTLAIRS OR EXTREME VALUES
+##
+
 
 
 
