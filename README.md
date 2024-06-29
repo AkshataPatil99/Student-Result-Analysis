@@ -12,7 +12,7 @@ Objective:
 ##
 The objective of this data analysis project is to examine how personal factors (parents' education, ethnic group, parents' marital status, and siblings) and professional factors (test preparation and weekly study hours) affect students' academic performance. The study aims to uncover significant relationships and trends that can provide insights into the multifaceted nature of educational achievement.
 ##
-Research Questions:
+Analysis Questions:
 ##
 1.Personal Factors:
 ##
@@ -29,3 +29,32 @@ Is there a relationship between the number of siblings and students' academic ac
 How does participation in test preparation programs affect students' scores?
 ##
 What is the correlation between weekly study hours and academic performance across various subjects?
+##
+CODE:
+##
+#IMPORT LIBRARIES
+##
+import numpy as np
+##
+import pandas as pd
+##
+import matplotlib.pyplot as plt
+##
+import seaborn as sns
+##
+#READ CSV FILES
+##
+df=pd.read_csv(r"C:\Users\ap446\OneDrive\Desktop\datasets\Expanded_data_with_more_features.csv")
+##
+pd.set_option('display.max_columns',None)
+##
+#CONDUCT EXPLORATORY DATA ANALYSIS
+##
+print(df.head(10))
+##
+df.describe()
+##
+df.info()
+##
+df.isnull().sum()
+
