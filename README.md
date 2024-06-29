@@ -130,7 +130,7 @@ plt.figure(figsize=(8, 6))  # Adjusted figsize for better visualization
 
 plt.title("Relationship between Parents Marital Status and Student Scores")
 
-sns.heatmap(gb1, annot=True, fmt=".2f", annot_kws={"rotation": 0})  # Setting fmt=".2f" for 2 decimal places and annot_kws={"rotation": 0} #for horizontal annotations
+sns.heatmap(gb1, annot=True, fmt=".2f", annot_kws={"rotation": 0})    # Setting fmt=".2f" for 2 decimal places and annot_kws={"rotation": 0} for horizontal annotations
 
 plt.show()
 ##
@@ -153,10 +153,13 @@ sns.boxplot(data = df,x = "WritingScore")
 
 plt.show()
 ##
+Mathscore:
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/c69df466-fc70-46be-8e45-1715b0a4f64e)
 ##
+Readingscore:
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/d5b135a1-38dc-45e1-8009-4a8226ae60dc)
 ##
+Writingscore:
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/6b42d835-4e42-4ec4-9b17-4777fabb3c26)
 ##
 Speculation:
