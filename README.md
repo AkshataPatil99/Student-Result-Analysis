@@ -28,19 +28,27 @@ import seaborn as sns
 ##
 READ CSV FILES
 ##
-df=pd.read_csv(r"C:\Users\ap446\OneDrive\Desktop\datasets\Expanded_data_with_more_features.csv")
+df=pd.read_csv(r""C:\Users\ap446\OneDrive\Desktop\datasets\Student_exam_results.csv"")
 
 pd.set_option('display.max_columns',None)
 ##
 CONDUCT EXPLORATORY DATA ANALYSIS
 ##
 print(df.head(10))
-
-df.describe()
-
-df.info()
-
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/fb53b508-87de-4916-817b-478fdd631862)
+##
+print(df.describe())
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/f6ecf65b-d503-46eb-9669-0d629e0f4c61)
+##
+print(df.info())
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/d1a935e8-1938-4292-a3b3-543680e51c0d)
+##
 df.isnull().sum()
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/460134bf-0706-49eb-924e-62d2766bc682)
 ##
 DROP COLUMN 
 ##
