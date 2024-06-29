@@ -27,25 +27,25 @@ Is there a relationship between the number of siblings and students' academic ac
 2.Professional Factors:
 ##
 How does participation in test preparation programs affect students' scores?
-##
+
 What is the correlation between weekly study hours and academic performance across various subjects?
-##
+
 CODE:
 ##
-#IMPORT LIBRARIES
+IMPORT LIBRARIES
 ##
 import numpy as np
-##
+
 import pandas as pd
-##
+
 import matplotlib.pyplot as plt
-##
+
 import seaborn as sns
-##
-#READ CSV FILES
+
+READ CSV FILES
 ##
 df=pd.read_csv(r"C:\Users\ap446\OneDrive\Desktop\datasets\Expanded_data_with_more_features.csv")
-##
+
 pd.set_option('display.max_columns',None)
 ##
 #CONDUCT EXPLORATORY DATA ANALYSIS
