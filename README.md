@@ -11,8 +11,9 @@ In the pursuit of understanding the determinants of academic success, it is esse
 
 <h5>Objective:
 The objective of this data analysis project is to examine how personal factors and professional factors affect students' academic performance. The study aims to uncover significant relationships and trends that can provide insights into the multifaceted nature of educational achievement.<h5>
- 
-<h6>CODE:<h6>
+
+ ##
+CODE:
  
 ##
 IMPORT LIBRARIES
