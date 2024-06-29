@@ -1,4 +1,6 @@
-"C:\Users\ap446\OneDrive\Documents\Programs\Pyproj\1.jpg" 
+##
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/58d27138-cb2a-4f5b-a691-a2906a1b73c0)
+##
 <h1>Student-Result-Analysis<h1>
 <h2>PYTHON EXPLORATORY DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
 <h3>Title: Analyzing the Impact of Personal and Professional Factors on Student Academic Performance<h3>
