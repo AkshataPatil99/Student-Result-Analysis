@@ -17,13 +17,13 @@ Analysis Questions:
 1.Personal Factors:
 ##
 How does parents' education level correlate with students' scores in different subjects?
-##
+
 What is the impact of students' ethnic group on their academic performance?
-##
+
 Does the marital status of parents influence students' scores, and if so, how?
-##
+
 Is there a relationship between the number of siblings and students' academic achievement?
-##
+
 2.Professional Factors:
 ##
 How does participation in test preparation programs affect students' scores?
