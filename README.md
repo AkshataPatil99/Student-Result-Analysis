@@ -32,7 +32,7 @@ pd.set_option('display.max_columns',None)
 ##
 FIND DIMENSIONS OF DATAFRAME
 ##
-print(df.head(10))
+print(df.head(5))
 ##
 ![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/fb53b508-87de-4916-817b-478fdd631862)
 ##
