@@ -1,5 +1,5 @@
 ##
-"C:\Users\ap446\Pictures\Screenshots\PY1.jpg"
+"C:\Users\ap446\OneDrive\Documents\Programs\Pyproj\PY1.jpg"
 ##
 <h1>Student-Result-Analysis<h1>
 <h2>PYTHON END TO END DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
