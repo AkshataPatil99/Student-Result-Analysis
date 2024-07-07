@@ -1,5 +1,6 @@
 ##
-"C:\Users\ap446\OneDrive\Documents\Programs\Pyproj\PY1.jpg"
+![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/5b56c84b-21df-4a02-a82e-768a90e1464d)
+
 ##
 <h1>Student-Result-Analysis<h1>
 <h2>PYTHON END TO END DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
