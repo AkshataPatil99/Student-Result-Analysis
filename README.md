@@ -1,8 +1,8 @@
 ##
-![image](https://github.com/AkshataPatil99/Student-Result-Analysis/assets/171495035/58d27138-cb2a-4f5b-a691-a2906a1b73c0)
+"C:\Users\ap446\Pictures\Screenshots\PY1.jpg"
 ##
 <h1>Student-Result-Analysis<h1>
-<h2>PYTHON EXPLORATORY DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
+<h2>PYTHON END TO END DATA ANALYSIS PROJECT | PANDAS | SEABORN | MATPLOTLIB</h2>
 <h3>Title: Analyzing the Impact of Personal and Professional Factors on Student Academic Performance<h3>
 
 <h4>Introduction:
