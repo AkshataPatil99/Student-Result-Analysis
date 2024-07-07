@@ -26,7 +26,7 @@ import seaborn as sns
 ##
 READ CSV FILES
 ##
-df=pd.read_csv(r""C:\Users\ap446\OneDrive\Desktop\datasets\Student_exam_results.csv"")
+df=pd.read_csv(r"C:\Users\ap446\OneDrive\Desktop\datasets\Student_exam_results.csv")
 
 pd.set_option('display.max_columns',None)
 ##
